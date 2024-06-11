@@ -1,6 +1,6 @@
 <template>
-  <div class="w-screen h-screen bg-gray">
-    <div class="loader relative inset-1/2 text-white"></div>
+  <div class="bg-white-blur w-screen h-screen">
+    <div class="loader relative inset-1/2 text-white-default"></div>
   </div>
 </template>
 <style scoped>

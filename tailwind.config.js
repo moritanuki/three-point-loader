@@ -4,6 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        white: {
+          default: '#fff',
+          blur: 'rgb(255 255 255 / .3)',
+        },
         gray: '#aaa',
       }
     },
