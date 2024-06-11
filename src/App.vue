@@ -26,7 +26,6 @@
 
 .loader:after {
   left: 14px;
-  animation-delay: 0s;
 }
 
 @keyframes loader {
@@ -34,10 +33,12 @@
   0%,
   80%,
   100% {
+    /* x軸 y軸(元々の要素より12px下) ぼかし 影サイズの拡張(マイナスにすればするほど影サイズが小さくなる) */
     box-shadow: 0 12px 0 -7px;
   }
 
   40% {
+    /* x軸 y軸(元々の要素より12px下) ぼかし 影サイズの拡張 */
     box-shadow: 0 12px 0 0;
   }
 }
