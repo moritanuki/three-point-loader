@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white-blur w-screen h-screen">
-    <div class="loader relative inset-1/2 text-white-default"></div>
+    <div class="loader relative inset-1/2 -translate-y-[12px] text-white-default"></div>
   </div>
 </template>
 <style scoped>
